@@ -71,6 +71,10 @@ body{
 .header .logo img:hover{
     cursor: pointer;
 }
+
+.header .logo img{
+    margin-right: 50%;
+}
 .header .nav-link li{
     list-style: none;
     text-decoration: none;
