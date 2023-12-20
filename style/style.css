@@ -56,7 +56,7 @@ body{
 .header{
     background-color: var(--celeste-argentina);
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: center;
     height: 85px;
     padding: 5px 10%;
@@ -71,7 +71,7 @@ body{
 .header .logo img:hover{
     cursor: pointer;
 }
-
+/* Esta es la parte que esta rota y no me sale*/
 .header .logo img{
     margin-right: 50%;
 }
@@ -108,4 +108,9 @@ body{
     color: var(--default);
 }
 
-
+header{
+    display: flex;
+    background-color: var(--white);
+    align-items: center;
+    
+}
